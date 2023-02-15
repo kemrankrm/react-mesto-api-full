@@ -1,0 +1,9 @@
+.popup__form_type_new-place{
+    max-width: 430px;
+}
+
+@media screen and (min-width: 619px) {
+    .popup__form_type_new-place{
+        min-width: 430px;
+    }
+}

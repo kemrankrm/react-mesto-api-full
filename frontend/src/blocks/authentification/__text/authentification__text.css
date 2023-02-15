@@ -1,0 +1,15 @@
+.authentification__text{
+    text-decoration: none;
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-top: 15px;
+    transition: opacity .3s;
+}
+
+.authentification__text:hover{
+    opacity: .8;
+}

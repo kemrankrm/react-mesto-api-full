@@ -1,0 +1,28 @@
+.popup__error{
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #F00;
+    z-index: 2;
+    position: absolute;
+    top: 140px;
+    max-width: 358px;
+    
+}
+
+.popup__error:nth-last-of-type(2){
+    top: 200px;
+}
+
+@media screen and (max-width: 617px) {
+    .popup__error{
+        top: 150px;
+    }
+
+    .popup__error:last-of-type{
+        top: 210px;
+    }
+}

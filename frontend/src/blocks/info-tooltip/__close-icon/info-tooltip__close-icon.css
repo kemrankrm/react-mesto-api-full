@@ -1,0 +1,15 @@
+.info-tooltip__close-icon{
+    position: absolute;
+    right: -40px;
+    top: -40px;
+
+    width: 32px;
+    height: 32px;
+
+    transition: opacity .1s ease-in-out; 
+}
+
+.info-tooltip__close-icon:hover{
+    opacity: .6;
+    cursor: pointer;
+}

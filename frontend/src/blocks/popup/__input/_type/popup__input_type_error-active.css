@@ -1,0 +1,7 @@
+.popup__input_type_error-active{
+    border-bottom: 1px solid #F00;
+    opacity: 1;
+    visibility: visible;
+    transition-property: all;
+    transition-duration: .5s;
+}

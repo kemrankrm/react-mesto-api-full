@@ -1,0 +1,7 @@
+.elements__element{
+    background-color: #FFF;
+    height: 361px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    position: relative;
+}

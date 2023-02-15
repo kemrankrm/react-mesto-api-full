@@ -1,0 +1,8 @@
+.authentification__form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+    text-align: center;
+    min-width: 358px;
+    color: #FFF;
+}
