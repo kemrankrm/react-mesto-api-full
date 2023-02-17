@@ -1,3 +1,4 @@
+require('dotenv').config();
 const express = require('express');
 const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
@@ -13,7 +14,8 @@ const { catchErrors } = require('./middlewares/errors');
 const { NotFoundError } = require('./scripts/utils/errors/NotFoundError');
 
 
-const { PORT = 3000 } = process.env;
+const { PORT = 3010 } = process.env;
+
 
 const app = express();
 
